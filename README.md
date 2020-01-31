@@ -19,8 +19,8 @@ y luego dirigirse a `Properties -> Java Compiler -> Enabled Project Specific Set
 * Después de dicha configuración, se procedió a crear las clase POJO que representará las entidad en la app, utilizando las anotaciones que nos provee la herramienta LOMBOK:
 `@Getter, @Setter` éste caso para las propiedades de la clase que requieres los métodos Getter y Setter.
 
-* La clase también fue decorada con la anotación `@NoArgsContructor` la cual le dice nos permite crear el constructor pero sin ningún parámetro, ahora bien, si deseas que crear
-el contructor con todos sus argumentos también, debes decorar la clase con la anotación `@AllArgsContructor`.
+* La clase también fue decorada con la anotación `@NoArgsContructor` la cual le dice nos permite crear el constructor pero sin ningún parámetro, ahora bien, si también deseas que crear
+el contructor con todos sus argumentos, debes decorar la clase con la anotación `@AllArgsContructor`.
 
 * En el controlador, también presenta la anotación `@Slf4j` permitiendonos hacer log en la consola del IDE, ahorrandonos así la declaración como lo haciamos anteriormente.
 ```
