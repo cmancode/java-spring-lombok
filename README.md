@@ -1,1 +1,1 @@
-java-spring-lombok
+# Proyecto de configuración LOMBOK
