@@ -31,4 +31,4 @@ curl -X PUT \
   'http://localhost:8080/persona/{id}'
 ```
 
-📌 **NOTA**: *Cabe aclarar que antes de someterte a utilizar esta herramienta, es necesario que tengas claros los conocimientos de lo que son los métodos Getter y Setter, con el fin de que sepas qué es lo que realidad estás haciendo y no utilices la herramienta solo por utilizarla.*
+📌 **NOTA**: *Cabe aclarar que antes de someterte a utilizar esta herramienta, es necesario que tengas claros los conocimientos de lo que son los métodos **Getter** y **Setter**, con el fin de que sepas qué es lo que realidad estás haciendo y no utilices la herramienta solo por utilizarla.*
