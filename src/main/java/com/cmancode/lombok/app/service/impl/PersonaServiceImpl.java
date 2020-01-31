@@ -27,4 +27,10 @@ public class PersonaServiceImpl implements IPersonaService {
 		this.personaDao.save(persona);
 	}
 
+	@Transactional(readOnly = true)
+	@Override
+	public Persona buscarPersonaPorId(Long id) {
+		return this.personaDao.findById(id).orElse(null);
+	}
+
 }

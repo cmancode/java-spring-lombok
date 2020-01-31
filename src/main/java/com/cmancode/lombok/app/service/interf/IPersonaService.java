@@ -6,5 +6,5 @@ public interface IPersonaService {
 	
 	public void crearPersona(Persona persona);
 	public void actualizarPersona(Persona persona);
-	
+	public Persona buscarPersonaPorId(Long id);
 }
